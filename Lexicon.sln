@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5-ForIteration", "5-ForIter
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzz-2", "FizzBuzz-2\FizzBuzz-2.csproj", "{DB36352B-0E34-4BCC-AC9E-8DBB619EA5F4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2-HelloWorld", "2-HelloWorld\2-HelloWorld.csproj", "{1A3B7D3F-FFF9-48DC-922C-5F9A660862C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3-Decisions", "3-Decisions\3-Decisions.csproj", "{531699DA-EF35-6EB5-2E3E-7BA08FA46E96}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,14 @@ Global
 		{DB36352B-0E34-4BCC-AC9E-8DBB619EA5F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB36352B-0E34-4BCC-AC9E-8DBB619EA5F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB36352B-0E34-4BCC-AC9E-8DBB619EA5F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A3B7D3F-FFF9-48DC-922C-5F9A660862C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A3B7D3F-FFF9-48DC-922C-5F9A660862C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A3B7D3F-FFF9-48DC-922C-5F9A660862C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A3B7D3F-FFF9-48DC-922C-5F9A660862C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{531699DA-EF35-6EB5-2E3E-7BA08FA46E96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{531699DA-EF35-6EB5-2E3E-7BA08FA46E96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{531699DA-EF35-6EB5-2E3E-7BA08FA46E96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{531699DA-EF35-6EB5-2E3E-7BA08FA46E96}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
