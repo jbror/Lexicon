@@ -2,6 +2,7 @@
 //Doing this video https://learn.microsoft.com/en-us/shows/csharp-fundamentals-for-absolute-beginners/for-iteration-statement
 using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -22,6 +23,11 @@ namespace _5ForIteration
                 }
                 
             }
+            for (int myValue = 0; myValue < 12; myValue++)
+            {
+                Console.WriteLine(myValue);
+            }
+
 
             Console.ReadLine();
         }
