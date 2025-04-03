@@ -3,11 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.13.35818.85
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonalRegister", "PersonalRegister\PersonalRegister.csproj", "{B271CF01-B037-8998-76AD-6B62277E4C45}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment1", "PersonalRegister\Assignment1.csproj", "{B271CF01-B037-8998-76AD-6B62277E4C45}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cinema", "Cinema\Cinema.csproj", "{88732EE9-428D-89EA-2BF7-F49C1B3CC3E5}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Asssignments", "Asssignments", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment2", "Cinema\Assignment2.csproj", "{88732EE9-428D-89EA-2BF7-F49C1B3CC3E5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,10 +24,6 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{B271CF01-B037-8998-76AD-6B62277E4C45} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
-		{88732EE9-428D-89EA-2BF7-F49C1B3CC3E5} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E072164F-691E-41D1-A5FA-4B3D26D12B4F}
