@@ -11,9 +11,38 @@ while (running)
             running = false;
             break;
 
-        default:
+        case "1":
+            CalculateCinemaCost();
+            break;
+
+        case "2":
+            RepeatTenTimes();
+            break;
+
+        case "3":
+            TheThirdWord();
+            break;
+
+            default:
             Console.WriteLine("Invalid input!");
             break;
 
     }
+}
+
+
+
+void CalculateCinemaCost()
+{
+
+}
+
+
+void RepeatTenTimes()
+{
+
+}
+void TheThirdWord()
+{
+
 }
