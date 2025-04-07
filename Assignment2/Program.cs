@@ -38,10 +38,8 @@ while (running)
 }
 
 
-
 void CalculateCinemaCost()
 {
-
     Console.WriteLine("This is case 1");
     var numberOfPersons = UserInputConvert("Enter number of persons: ");
 
@@ -53,8 +51,9 @@ void CalculateCinemaCost()
         //Console.WriteLine($"Enter age of person {i}:");
         var person_age = UserInputConvert($"Enter age of person {i}:");
         customerAges.Add(person_age);
+
     }
-    var totalPrice = new List<int>();
+    int totalPrice = 0;
     for (int i = 0; i < customerAges.Count; i++)
     {
         string priceGroup;
@@ -63,23 +62,28 @@ void CalculateCinemaCost()
         if (age <= 20)
         {
             price = 100;
+            totalPrice+= price;
             priceGroup = "Youth";
         }
         else if (age >= 65)
         {
             price = 90;
+            totalPrice+= price;
+
             priceGroup = "Senior";
         }
         else
         {
             price = 150;
+            totalPrice += price;
+
             priceGroup = "Standard Price";
         }
-        totalPrice.Add(price);
-        Console.WriteLine($"Person {i + 1} {price} SEK:- ({priceGroup})");
-
+        
+        Console.WriteLine($"Person{i + 1}: {price} SEK:- ({priceGroup})");
 
     }
+    Console.WriteLine("Total price to pay: "+totalPrice+" SEK:-");
     int UserInputConvert(string prompt)
     {
         Console.WriteLine(prompt);
@@ -90,8 +94,6 @@ void CalculateCinemaCost()
         }
         return number;
     }
-     //UserInputConvert("Enter number: ");
-
 
 
 
