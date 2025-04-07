@@ -2,12 +2,12 @@
 using System.Reflection.Metadata;
 
 Console.WriteLine("Hello, hi and welcome to your local cinema!");
-Console.WriteLine("\nYou are now at the main menu. Please help the lovely developers by testing our new software.\nMake a choice by entering a number");
+Console.WriteLine("Please help the lovely developers by testing our new software.\nMake a choice by entering a number\n");
 var running = true;
 while (running)
 {
-   // Console.WriteLine("\nYou are now at the main menu. Please help the lovely developers by testing our new software.\nMake a choice by entering a number");
-    Console.WriteLine();
+    // Console.WriteLine("\nYou are now at the main menu. Please help the lovely developers by testing our new software.\nMake a choice by entering a number");
+    Console.WriteLine("Main Menu:");
     Console.WriteLine("Press 1 for purchasing tickets");
     Console.WriteLine("Press 2 to enter your favorite word and see it be repeated back to you ten times! ");
 
@@ -40,7 +40,7 @@ while (running)
 
 void CalculateCinemaCost()
 {
-    Console.WriteLine("This is case 1");
+    Console.WriteLine("This is case 1. Purchasing tickets");
     var numberOfPersons = UserInputConvert("Enter number of persons: ");
 
     Console.WriteLine($"Okay, you are {numberOfPersons} persons.");
@@ -62,13 +62,13 @@ void CalculateCinemaCost()
         if (age <= 20)
         {
             price = 100;
-            totalPrice+= price;
+            totalPrice += price;
             priceGroup = "Youth";
         }
         else if (age >= 65)
         {
             price = 90;
-            totalPrice+= price;
+            totalPrice += price;
 
             priceGroup = "Senior";
         }
@@ -79,11 +79,11 @@ void CalculateCinemaCost()
 
             priceGroup = "Standard Price";
         }
-        
+
         Console.WriteLine($"Person{i + 1}: {price} SEK:- ({priceGroup})");
 
     }
-    Console.WriteLine("Total price to pay: "+totalPrice+" SEK:-");
+    Console.WriteLine("Total price to pay: " + totalPrice + " SEK:-\n");
     int UserInputConvert(string prompt)
     {
         Console.WriteLine(prompt);
